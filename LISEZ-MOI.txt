@@ -1,0 +1,7 @@
+MISE EN LIGNE (Vercel, gratuit)
+1. Crée un compte sur vercel.com (connexion avec GitHub).
+2. Mets ces fichiers dans un dépôt GitHub (index.html, og.jpg, dossier images) puis « Add New > Project » et choisis ce dépôt. Aucun réglage à changer.
+3. Quand tu as ton adresse (ex. https://ton-nom.vercel.app), ouvre index.html et remplace
+   content="og.jpg" par content="https://ton-nom.vercel.app/og.jpg" (2 fois : og:image et twitter:image),
+   pour que LinkedIn et WhatsApp affichent la vignette au partage.
+4. Mets cette adresse sur ton CV et dans ton profil GitHub et LinkedIn.

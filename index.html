@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Konate Kharfala Kader — Développeur web junior</title>
+<meta name="description" content="Portfolio de Konate Kharfala Kader, développeur web junior à Abidjan, en recherche de stage : PHP, Laravel, JavaScript, sécurité web.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E💻%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:image" content="og.jpg">
+<meta name="theme-color" content="#2347E8">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Konate Kharfala Kader — Développeur web junior">
+<meta property="og:description" content="Portfolio d’un développeur web junior à Abidjan, en recherche de stage : PHP, Laravel, JavaScript, sécurité web.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Konate Kharfala Kader","jobTitle":"Développeur web junior","alumniOf":"IFRAN — Institut Français du Numérique","address":{"@type":"PostalAddress","addressLocality":"Abidjan","addressCountry":"CI"},"sameAs":["https://github.com/Kader666-web","https://www.linkedin.com/in/kader-konate/"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--bg:#F6F8FC;--ink:#0B1226;--muted:#566080;--line:#DCE2EE;--card:#FFFFFF;--accent:#2347E8;--on-accent:#FFFFFF;color-scheme:light;
+box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A1020;--ink:#EAEEF9;--muted:#9AA6C8;--line:#222C4A;--card:#111A30;--accent:#7E9BFF;--on-accent:#0A1020;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0A1020;--ink:#EAEEF9;--muted:#9AA6C8;--line:#222C4A;--card:#111A30;--accent:#7E9BFF;--on-accent:#0A1020;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));height:auto}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.125rem/1.7 Inter,system-ui,sans-serif;padding-top:calc(68px + env(safe-area-inset-top,0px))}
+h1,h2,h3{margin:0;line-height:1.15;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 1.5rem}
+header{position:fixed;top:0;left:0;right:0;z-index:20;padding-top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hb{display:flex;justify-content:space-between;align-items:center;height:68px;gap:1rem}
+.logo{font-weight:800;text-decoration:none;white-space:nowrap}
+nav{display:flex;gap:1.5rem;font-weight:500;font-size:1rem;overflow-x:auto}
+nav a{text-decoration:none;color:var(--muted);white-space:nowrap}nav a:hover{color:var(--accent)}
+.btn{display:inline-block;font:600 1.05rem Inter,sans-serif;padding:.85rem 1.6rem;border-radius:12px;text-decoration:none;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.btn.main{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn.sm{padding:.55rem 1.1rem;font-size:.97rem}
+.btn:hover{transform:translateY(-2px)}
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+.sec h2{font-size:clamp(2rem,4.5vw,3rem);margin-bottom:.75rem}
+.lead{color:var(--muted);max-width:44rem;margin:0 0 2.5rem}
+.hero{display:grid;gap:3rem;align-items:center;padding-top:clamp(2rem,6vw,4.5rem)}
+@media(min-width:880px){.hero{grid-template-columns:1.3fr 1fr}}
+.pill{display:inline-flex;align-items:center;gap:.55rem;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.35rem 1rem;font-size:.95rem;font-weight:500}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4rem);margin:1.25rem 0 1rem;animation:rise .8s both}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--muted);font-size:1.3rem;max-width:36rem;margin:0 0 2rem}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.me{width:min(100%,380px);aspect-ratio:1;height:auto;object-fit:cover;border-radius:50%;justify-self:center;box-shadow:0 0 0 8px var(--card),0 0 0 11px var(--accent);animation:rise .9s .15s both}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.alt{background:var(--card);border-block:1px solid var(--line)}
+.grid{display:grid;gap:1.5rem}
+.g4{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.75rem}
+.alt .card{background:var(--bg)}
+.sk svg{color:var(--accent);margin-bottom:1rem}
+.sk h3,.rc h3{font-size:1.35rem;margin-bottom:.75rem}
+.sk ul,.rc ul{margin:0;padding-left:1.2rem;color:var(--muted)}
+.about p{max-width:46rem;margin:0 0 1rem}
+.proj{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.shot{display:block;position:relative;width:100%;padding:0;border:0;border-bottom:1px solid var(--line);background:var(--card);cursor:zoom-in;overflow:hidden}
+.shot img{display:block;width:100%;height:auto;transition:transform .35s}.shot:hover img{transform:scale(1.03)}
+.hint{position:absolute;right:.75rem;bottom:.75rem;background:var(--accent);color:var(--on-accent);font:600 .9rem Inter,sans-serif;padding:.35rem .9rem;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.pb{padding:1.5rem 1.75rem 1.75rem;display:flex;flex-direction:column;flex:1}
+.pb h3{font-size:1.5rem}.pb .sub{color:var(--accent);font-weight:600;margin:.3rem 0 1rem}
+.pb p{margin:0 0 1rem}.pb ul{margin:0 0 1rem;padding-left:1.2rem}.pb li{margin:.25rem 0}
+.mine{padding:.7rem 1rem;border-left:4px solid var(--accent);background:var(--bg);border-radius:0 10px 10px 0}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;padding:0!important;margin-top:auto!important}
+.tags li{margin:0;padding:.2rem .8rem;border:1px solid var(--line);border-radius:999px;font-size:.95rem;font-weight:500}
+.acts{display:flex;gap:.75rem;margin-top:1.25rem}
+.rc p{margin:0;color:var(--muted)}.rc b{color:var(--ink)}
+.ct{display:grid;gap:2.5rem}
+@media(min-width:880px){.ct{grid-template-columns:1.2fr 1fr}}
+form{display:grid;gap:1rem}
+label{display:grid;gap:.4rem;font-weight:600;font-size:1rem}
+input,textarea{font:400 1.05rem Inter,sans-serif;padding:.85rem 1rem;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);width:100%}
+textarea{min-height:150px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--accent)}
+.info{display:grid;gap:1rem;align-content:start}
+.info a{text-decoration:none;font-weight:600;word-break:break-all}.info a:hover{color:var(--accent)}
+.info small{display:block;color:var(--muted);font-weight:400}
+.ok{color:var(--accent);font-weight:600;margin:0;min-height:1.5rem}
+footer{border-top:1px solid var(--line);padding:2rem 0 2.5rem;color:var(--muted);font-size:.95rem}
+html:has(dialog[open]){overflow:hidden}
+dialog{width:min(1100px,94vw);height:min(90vh,900px);max-width:none;max-height:none;padding:0;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);overflow:hidden}
+dialog[open]{display:flex;flex-direction:column;animation:pop .25s ease-out}
+dialog::backdrop{background:rgba(4,8,20,.74)}
+@keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+.bar{display:flex;align-items:center;gap:.5rem;padding:.7rem 1rem;border-bottom:1px solid var(--line);background:var(--bg)}
+.bar i{width:11px;height:11px;border-radius:50%;background:var(--line)}
+.bar b{flex:1;text-align:center;font-size:.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar button{font:600 .95rem Inter,sans-serif;background:var(--accent);color:var(--on-accent);border:0;border-radius:999px;padding:.4rem 1rem;cursor:pointer}
+.pv{flex:1;overflow:auto;overscroll-behavior:contain;background:var(--bg)}.pv img{display:block;width:100%;height:auto}
+.note{padding:.5rem 1rem;font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);text-align:center}
+@media(max-width:640px){.logo{font-size:1rem}nav{gap:1rem;font-size:.92rem}.hb{gap:.5rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.ch{font-size:.95rem;margin:0 0 .5rem;color:var(--muted);font-weight:700}
+</style>
+</head>
+<body>
+<header><div class="wrap hb">
+  <a class="logo" href="#accueil">K. Konate</a>
+  <nav aria-label="Navigation principale"><a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#cv">CV</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main>
+<section id="accueil" class="wrap hero">
+  <div>
+    <span class="pill"><i></i>Disponible pour un stage</span>
+    <h1>Bonjour, je suis <em>Konate Kharfala Kader</em>, développeur web junior.</h1>
+    <p>Je conçois des sites responsives en HTML, CSS et JavaScript, je construis leur côté serveur en PHP et Laravel, et je code avec la sécurité en tête.</p>
+    <div class="cta"><a class="btn main" href="#projets">Voir mes projets</a><a class="btn" href="#cv">Voir mon CV</a></div>
+  </div>
+  <img class="me" fetchpriority="high" decoding="async" src="images/kader.webp" alt="Portrait de Konate Kharfala Kader" width="680" height="680">
+</section>
+
+<section id="apropos" class="alt"><div class="wrap about sec">
+  <h2>À propos</h2>
+  <p>Je suis étudiant en troisième année de développement web à IFRAN (Institut Français du Numérique), à Abidjan, et j’apprends surtout en construisant : une boutique de streetwear, un site de pâtisserie, une boutique de bijoux et un site pour une mairie avec son espace d’administration.</p>
+  <p>Ce que j’aime le plus, c’est qu’une page soit agréable à utiliser sur un petit téléphone comme sur un grand écran, et qu’elle résiste aux erreurs et aux attaques. La cybersécurité fait partie de ma façon de coder, pas d’une étape à la fin.</p>
+  <p>Je cherche un stage de durée flexible pour travailler sur des projets concrets avec une équipe, en front-end, en back-end ou en full-stack.</p>
+</div></section>
+
+<section id="competences"><div class="wrap sec">
+  <h2>Compétences</h2>
+  <p class="lead">Les technologies que j’utilise dans mes projets.</p>
+  <div class="grid g4"><div class="card sk"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><h3>Front-end</h3><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Tailwind CSS</li><li>WordPress</li></ul></div><div class="card sk"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/></svg><h3>Back-end</h3><ul><li>PHP</li><li>Laravel</li></ul></div><div class="card sk"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="8" r="2.5"/><path d="M6 8.5v7M18 10.5c0 3.5-5 3-12 5.5"/></svg><h3>Données et outils</h3><ul><li>SQLite</li><li>Git</li><li>GitHub</li><li>Python (bases)</li></ul></div><div class="card sk"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg><h3>Pratiques</h3><ul><li>Intégration responsive</li><li>Manipulation du DOM</li><li>Formulaires et commandes</li><li>Bases de sécurité web</li></ul></div></div>
+</div></section>
+
+<section id="projets" class="alt"><div class="wrap sec">
+  <h2>Projets</h2>
+  <p class="lead">Clique sur une image pour voir la page d’accueil en entier.</p>
+  <div class="grid g2">
+<article class="card proj"><button class="shot" type="button" data-k="agni" data-n="Projet de site pour la mairie d’Agnibilékrou" aria-label="Voir la page : aperçu de Projet de site pour la mairie d’Agnibilékrou"><img src="images/projet-agni.webp" alt="Page d’accueil du site de la mairie d’Agnibilékrou" width="1000" height="625" loading="lazy" decoding="async"><span class="hint">Voir la page</span></button>
+<div class="pb"><h3>Projet de site pour la mairie d’Agnibilékrou</h3><p class="sub">Projet personnel, pas le site officiel</p><p class="mine"><b>Mon rôle :</b> projet réalisé en autonomie.</p><p>Un site de commune avec administration : actualités, démarches, documents et signalements des habitants.</p><h4 class="ch">Défis techniques</h4><ul><li>Sécurité : connexion en deux étapes, protection CSRF, requêtes préparées, limitation des envois et nettoyage du contenu contre les failles XSS</li><li>Vie privée : les photos envoyées par les habitants sont purgées de leurs données GPS</li><li>Fiabilité : sauvegardes de la base et 39 vérifications de bout en bout</li></ul>
+<ul class="tags"><li>PHP</li><li>SQLite</li><li>JavaScript</li></ul><div class="acts"><button type="button" class="btn main sm" data-open="agni">Aperçu</button><a class="btn sm" href="https://github.com/Kader666-web" target="_blank" rel="noopener noreferrer">Mon GitHub</a></div></div></article>
+<article class="card proj"><button class="shot" type="button" data-k="blac" data-n="Blac Joyaux" aria-label="Voir la page : aperçu de Blac Joyaux"><img src="images/projet-blac.webp" alt="Page d’accueil de la boutique Blac Joyaux" width="1000" height="625" loading="lazy" decoding="async"><span class="hint">Voir la page</span></button>
+<div class="pb"><h3>Blac Joyaux</h3><p class="sub">Boutique de bijoux, projet collaboratif</p><p class="mine"><b>Mon rôle :</b> j’ai réalisé l’interface front-end et contribué à une partie du back-end, avec un autre développeur.</p><p>Une application e-commerce avec un vrai serveur : connexion, panier, commande, codes promo, administration et tests.</p><h4 class="ch">Défis techniques</h4><ul><li>Un vrai serveur Laravel : base de données avec 16 migrations, gestion du stock et codes promo</li><li>Qualité : tests automatisés et analyse statique du code avec PHPStan</li></ul>
+<ul class="tags"><li>Laravel</li><li>PHP</li><li>SQLite</li></ul><div class="acts"><button type="button" class="btn main sm" data-open="blac">Aperçu</button><a class="btn sm" href="https://github.com/Kader666-web" target="_blank" rel="noopener noreferrer">Mon GitHub</a></div></div></article>
+<article class="card proj"><button class="shot" type="button" data-k="ismo" data-n="Ismowear" aria-label="Voir la page : aperçu de Ismowear"><img src="images/projet-ismo.webp" alt="Page d’accueil du site Ismowear" width="1000" height="625" loading="lazy" decoding="async"><span class="hint">Voir la page</span></button>
+<div class="pb"><h3>Ismowear</h3><p class="sub">Boutique de streetwear</p><p class="mine"><b>Mon rôle :</b> conception et développement du site.</p><p>Catalogue avec recherche, filtres et tri, fiches produit, panier et interface d’administration de démonstration.</p><h4 class="ch">Défis techniques</h4><ul><li>Panier, comptes et commandes gérés dans le navigateur (localStorage), sans serveur</li><li>Application installable sur téléphone : manifeste et service worker (PWA)</li><li>Paiement CinetPay configuré en mode démonstration, pas en production</li></ul>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="acts"><button type="button" class="btn main sm" data-open="ismo">Aperçu</button><a class="btn sm" href="https://github.com/Kader666-web" target="_blank" rel="noopener noreferrer">Mon GitHub</a></div></div></article>
+<article class="card proj"><button class="shot" type="button" data-k="savoir" data-n="Savoir-Faire" aria-label="Voir la page : aperçu de Savoir-Faire"><img src="images/projet-savoir.webp" alt="Page d’accueil du site Savoir-Faire" width="1000" height="625" loading="lazy" decoding="async"><span class="hint">Voir la page</span></button>
+<div class="pb"><h3>Savoir-Faire</h3><p class="sub">Site de pâtisserie</p><p class="mine"><b>Mon rôle :</b> conception et développement du site.</p><p>Présentation des desserts, menu filtrable et parcours de commande orienté WhatsApp.</p><h4 class="ch">Défis techniques</h4><ul><li>Sécurité : échappement du contenu affiché pour éviter les failles XSS</li><li>Référencement : métadonnées SEO, et commande envoyée directement vers WhatsApp</li></ul>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="acts"><button type="button" class="btn main sm" data-open="savoir">Aperçu</button><a class="btn sm" href="https://github.com/Kader666-web" target="_blank" rel="noopener noreferrer">Mon GitHub</a></div></div></article>
+  </div>
+</div></section>
+
+<section id="cv"><div class="wrap sec">
+  <h2>Mon CV</h2>
+  <p class="lead">Candidature pour un stage en développement web.</p>
+  <div class="grid g2">
+    <div class="card rc"><h3>Formation</h3><p><b>IFRAN — Institut Français du Numérique, Abidjan</b><br>Développement web, troisième année en cours (depuis 2024).</p><p style="margin-top:.8rem"><b>Baccalauréat série A1</b>, obtenu en 2024.</p></div>
+    <div class="card rc"><h3>Objectif</h3><p>Stage de durée flexible, ouvert aux missions front-end, back-end ou full-stack, selon les besoins de l’entreprise.</p></div>
+    <div class="card rc"><h3>Langues</h3><ul><li>Français : courant</li><li>Anglais : débutant</li><li>Espagnol : notions de base</li></ul></div>
+    <div class="card rc"><h3>Me joindre pour le CV complet</h3><p>Je t’envoie mon CV en PDF sur simple demande par mail ou sur LinkedIn.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="alt"><div class="wrap sec">
+  <h2>Contact</h2>
+  <p class="lead">Une question, une proposition de stage ? Écris-moi.</p>
+  <div class="ct">
+    <form id="cf">
+      <label>Nom<input name="n" required autocomplete="name"></label>
+      <label>Email<input name="e" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="m" required></textarea></label>
+      <button class="btn main" type="submit">Envoyer</button>
+      <p class="ok" id="ok" role="status"></p>
+    </form>
+    <div class="info">
+      <div><small>Email</small><a href="mailto:konatekader319@gmail.com">konatekader319@gmail.com</a></div>
+      <div><small>Téléphone</small><a href="tel:+2250719161037">+225 07 19 16 10 37</a></div>
+      <div><small>Lieu</small>Abidjan, Côte d’Ivoire</div>
+      <div class="cta"><a class="btn main sm" href="https://www.linkedin.com/in/kader-konate/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="btn sm" href="https://github.com/Kader666-web" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Konate Kharfala Kader. Tous droits réservés.</div></footer>
+
+<dialog id="pv" aria-label="Aperçu"><div class="bar"><i></i><i></i><i></i><b id="pvt"></b><button type="button" id="pvc">Fermer</button></div><div class="pv" id="pvb" tabindex="0"><img id="pvi" alt=""></div><div class="note">Fais défiler pour voir toute la page d’accueil.</div></dialog>
+<script>
+const FULL={"ismo": "images/apercu-ismo.webp", "savoir": "images/apercu-savoir.webp", "agni": "images/apercu-agni.webp", "blac": "images/apercu-blac.webp"};
+const d=document.getElementById('pv'),pi=document.getElementById('pvi'),pb=document.getElementById('pvb');
+function openPv(k){const b=document.querySelector('.shot[data-k="'+k+'"]');
+  pi.src=FULL[k]||b.querySelector('img').src;pi.alt='Page d’accueil de '+b.dataset.n;
+  document.getElementById('pvt').textContent=b.dataset.n;d.setAttribute('aria-label','Aperçu de '+b.dataset.n);d.showModal();pb.scrollTop=0}
+document.querySelectorAll('.shot').forEach(b=>b.addEventListener('click',()=>openPv(b.dataset.k)));
+document.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>openPv(b.dataset.open)));
+document.getElementById('pvc').addEventListener('click',()=>d.close());
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+document.getElementById('cf').addEventListener('submit',e=>{e.preventDefault();const f=e.target;
+  const body='Bonjour Kader,\n\n'+f.m.value+'\n\n'+f.n.value+' ('+f.e.value+')';
+  document.getElementById('ok').textContent='Ton application mail va s’ouvrir pour envoyer le message.';
+  window.location.href='mailto:konatekader319@gmail.com?subject='+encodeURIComponent('Message depuis ton portfolio')+'&body='+encodeURIComponent(body)});
+</script>
+</body>
+</html>
